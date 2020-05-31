@@ -14,3 +14,11 @@ node app.js actualizar -d "Demo II" -c true
 
 ### borrar tarea
 node app borrar -d "Demo" 
+
+## release
+git tag -a v1.4 -m "Primera Version"
+
+git tag 
+
+git push --tags
+
