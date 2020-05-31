@@ -3,6 +3,7 @@ const fs = require('fs');
 let listadoPorHacer = [];
 
 const guardarDB = () => {
+    
     let data = JSON.stringify(listadoPorHacer);
     
     fs.writeFile('db/data.json', data, (err) => {
@@ -19,6 +20,12 @@ const cargarDB = () => {
     }
 
 }
+
+const getListado = () => {
+    cargarDB();
+    return listadoPorHacer;
+}
+
 
 
 const crear = (descripcion) => {
@@ -41,5 +48,6 @@ const crear = (descripcion) => {
 
 
 module.exports = {
-    crear,
+    crear, 
+    getListado
 }
