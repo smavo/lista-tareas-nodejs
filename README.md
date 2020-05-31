@@ -11,3 +11,6 @@ node app listar -d
 
 ### actualizar estado
 node app.js actualizar -d "Demo II" -c true 
+
+### borrar tarea
+node app borrar -d "Demo" 
