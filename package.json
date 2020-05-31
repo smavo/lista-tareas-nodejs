@@ -1,0 +1,15 @@
+{
+  "name": "lista-de-tareas",
+  "version": "1.0.0",
+  "description": "Aplicacion de lista de tareas en Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio V.O",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^15.3.1"
+  }
+}
